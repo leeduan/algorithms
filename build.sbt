@@ -9,3 +9,5 @@ libraryDependencies += "junit" % "junit" % "4.10"
 
 // logging
 libraryDependencies += "org.slf4j" % "slf4j-log4j12" % "1.7.21"
+
+mainClass in (Compile,run) := Some("PercolationStats")
