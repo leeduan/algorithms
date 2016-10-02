@@ -15,4 +15,4 @@ libraryDependencies += "org.slf4j" % "slf4j-log4j12" % "1.7.21"
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-q", "-v")
 
 // Update main class as needed
-mainClass in (Compile,run) := Some("Subset")
+mainClass in (Compile,run) := Some("Board")
